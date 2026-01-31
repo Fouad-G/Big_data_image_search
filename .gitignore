@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtualenv
+.venv/
+venv/
+
+# Data & Artifacts
+data/
+*.db
+*.bin
+*.pt
+*.prof
+*.png
+
+# OS
+.DS_Store
+._*
+
+# Logs
+*.log
