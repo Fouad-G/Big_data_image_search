@@ -1,4 +1,4 @@
-`````md
+````md
 # Image Recommender (DAISY – Big Data Engineering)
 
 A local, modular image recommender system designed for large-scale image datasets (≈550,000 images).  
@@ -28,6 +28,7 @@ The project follows Big Data Engineering principles: generator-based data loadin
    ```bash
    pip install -e .
    ```
+
 4. Prepare configuration files:
 
    * `config_miniset.yaml` → small subset for testing
@@ -52,6 +53,7 @@ This project uses **multiple config files** for reproducibility and scalability.
 ### `config_full.yaml`
 
 * Full dataset (`/Volumes/BigDataB/data/image_data`)
+
 * Separate output directories:
 
   ```
@@ -60,6 +62,7 @@ This project uses **multiple config files** for reproducibility and scalability.
   ./data/full/ann_hnsw.bin
   ./data/full/cache/
   ```
+
 * Training uses a **controlled subset (e.g. 50,000 images)** via:
 
   ```yaml
