@@ -1,4 +1,4 @@
-````md
+`````md
 # Image Recommender (DAISY – Big Data Engineering)
 
 A local, modular image recommender system designed for large-scale image datasets (≈550,000 images).  
